@@ -84,11 +84,11 @@
     }  
     
     #page-home main h1{
-        font-size: 35px;
+        font-size: 40px;
     }
     
     #page-home main p{
-        font-size: 15px;
+        font-size: 20px;
     }
     
     #page-create-point form{
@@ -106,7 +106,7 @@
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 420px){
     #page-create-point form .items-grid {
         display: flex;
         flex: 1;
@@ -123,5 +123,13 @@
 
     #page-create-point form button{
         width: 230px;
+    }
+    
+    #page-home main h1{
+        font-size: 35px;
+    }
+    
+    #page-home main p{
+        font-size: 15px;
     }
 }
