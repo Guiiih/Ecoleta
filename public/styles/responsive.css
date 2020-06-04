@@ -10,7 +10,7 @@
     
     #page-home header a{
         position: absolute;
-        bottom: -48px;
+        bottom: 0px;
 
         left: 50%;
         transform: translateX(-50%);
@@ -83,9 +83,17 @@
     #page-create-point form .field-group .field{
         margin-left: 0;
     }
-    
 
+    #page-create-point form legend{
+        align-items: baseline;
+        flex-direction: column;
 
+        margin-bottom: 20px;
+    }
+
+    #page-create-point form legend h2{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 420px){
