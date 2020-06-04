@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
     #page-home{
-        background-position-x: 70vw;
+        background-position-x: 80vw;
     }
 
     #page-home .content{
@@ -67,12 +67,7 @@
 
     #page-create-point form h1{
         font-size: 25px;
-    }
-
-    #page-home main h1 {
-        font-size: 40px;
-    }
-    
+    }   
 }
 
 @media (min-width: 1700px){
@@ -86,9 +81,13 @@
         background-position-y: 100px;
     }
 }
-@media (min-width: 760px){
+@media (max-width: 760px){
     #page-home header a span{
         width: 29px;
         margin-right: 2px;
     }  
+    
+    #page-home main h1{
+
+    }
 }
