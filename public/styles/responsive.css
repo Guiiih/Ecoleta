@@ -129,4 +129,8 @@
     #modal form{
         padding: 16px;
     }
+    
+    #modal .header h1 {
+        font-size: 26px;
+    }
 }
