@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
     #page-home{
-        background-position-x: 80vw;
+        background-position-x: 100vw;
     }
 
     #page-home .content{
@@ -46,23 +46,9 @@
         height: 100px;
     }
 
-    #page-home header a span {
-        margin-right: 0;
-        width: 30px;
-    }
-
     #page-create-point form h1{
         font-size: 30px;
     }  
-    
-    #modal form button{
-        width: 55px;
-        height: 55px;
-    }
-
-    #modal .header h1{
-        font-size: 26px;
-    }
     
 }
 
@@ -77,12 +63,7 @@
         background-position-y: 100px;
     }
 }
-@media (max-width: 760px){
-    #page-home header a span{
-        width: 29px;
-        margin-right: 2px;
-    }  
-    
+@media (max-width: 760px){ 
     #page-home main h1{
         font-size: 40px;
     }
@@ -102,11 +83,17 @@
     #page-create-point form .field-group .field{
         margin-left: 0;
     }
+    
 
 
 }
 
 @media (max-width: 420px){
+    #page-home header a span{
+        width: 29px;
+        margin-right: 4px;
+    }  
+
     #page-create-point form .items-grid {
         display: flex;
         flex: 1;
@@ -128,8 +115,10 @@
     #page-home main h1{
         font-size: 35px;
     }
-    
-    #page-home main p{
-        font-size: 15px;
+    #modal .header{
+        padding: 16px;
+    }
+    #modal form{
+        padding: 16px;
     }
 }
