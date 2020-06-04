@@ -21,11 +21,11 @@
     }
 
     #page-search-results header img{
-        width: 120px;
+        width: 130px;
     }
 
     #page-create-point header img{
-        width: 120px;
+        width: 130px;
     }
 
     #page-search-results header a p{
@@ -40,7 +40,9 @@
         grid-template-columns: 1fr;
     }
 
-    
+    #page-search-results main{ 
+        margin: 48px 24px 48px 24px;
+    }
     #page-create-point form .field-group{
         flex-direction: column;
     }
