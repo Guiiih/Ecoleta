@@ -68,6 +68,10 @@
     #page-create-point form h1{
         font-size: 25px;
     }
+
+    #page-home main h1 {
+        font-size: 40px;
+    }
     
 }
 
