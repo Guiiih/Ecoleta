@@ -65,7 +65,7 @@ server.post("/savepoint", (req, res) => {
     function afterInsertData(err) {
         if(err) {
             console.log(err)
-            return res.send("Erro no cadastro!")
+            return res.render("create-point.html", { erro: true}) 
         }
 
         console.log("Cadastrado com sucesso")
@@ -85,7 +85,7 @@ server.get("/search", (req, res) => {
     if(search == ""){
         // pesquisa vazia
         // mostrar a pagina html com os dados do banco de dados
-        return res.render("search-results.html", { total: 0})        
+        //return res.render("search-results.html", { total: 0})        
     }
 
     //pegar os dados do banco de dados
